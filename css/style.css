@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    margin-top: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card{
+    width: 25rem;
+}
+.all-page{
+    display: grid;
+    grid-template-columns: auto 2fr auto;
+    text-align: center;
+    gap: 2rem;
+    align-items: center
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p{
+   margin-bottom: 0px;
+}
+.all{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 2rem;
+}
+.notvigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    background-color: rgb(45, 45, 96);
+    color: #fff;
+    padding: 10px;
+}
+.not{
+    margin-right: 10px;
+}
+.side1{
+    border:2px solid #e7e0e0;
+    padding: 1rem;
+}
+.side2{
+    text-align: right;
+    border:2px solid #e7e0e0;
+    padding: 1rem;
+}
+.metaphor{
+    display: grid;
+    grid-template-columns: 2fr auto ;
+}
+.navbar{
+    margin-bottom: 3rem;
+
+}
+form{
+    width: 30%;
+    margin: auto;
+}
+.secoundn-card{
+    padding: 1rem;
+    padding-top: 4rem;
+
+}
+.close{
+    width: 1rem;
+}
+img{
+    margin-top: 0;
+}
+.book1{
+    text-align: center;
+}
+.metaphor-p{
+    text-align: center;
+}
+.card1{
+    padding: 1rem;
+    border: 2px solid #e7e0e0;
+    border-radius: 10px;
+}
+.my-card-body{
+    padding: 1rem;
+}
+.cardds{
+    display: flex;
+    justify-content: space-between;
+}
+.firstbook{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.firstbook p{
+    font: 25px sans-serif;
+}
+.fa-heart{
+    border: 1px ;
+    font-size: 25px;
+    /* color: rgb(28, 25, 25);   */
+    color: rgb(252, 0, 0);
+}
+.fa-star{
+    font-size: 10px;
+    color: rgb(215, 218, 29);
+}
+.p-display{
+    margin-bottom: 0;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.library{
+    background-color: rgb(93, 176, 9);
+    color: #fff;
+    padding: 1rem;
+}
+
+.center{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.btn-3{
+    margin-top: 10px;
+}
+nav {
+    /* عشان تختفي  */
+    display: none;
+
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.li-text {
+    font-size: 10px;
+    margin: 5px;
+    color: #310334;
+
+}
